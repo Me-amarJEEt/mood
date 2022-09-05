@@ -1,0 +1,141 @@
+html,body{
+    padding:0;
+    margin:0;
+    height:100%;
+}
+
+#background{
+    background-color: black;
+    background-image: url(../images/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#loginContainer * {
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1em;
+    box-sizing: border-box;
+}
+
+#loginContainer {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1024px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #37f77d;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #37f77d;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #37f77d;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #37f77d;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #37f77d;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #37f77d;
+}
+
+#inputContainer {
+    width: 400px;
+    padding: 45px;
+    float: left;
+    border-right: 1px solid #fff;
+}
+
+#inputContainer h2 {
+    text-align:center;
+}
+
+#inputContainer input[type="text"], 
+#inputContainer input[type="email"], 
+#inputContainer input[type="password"] {
+    display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+    outline: none;
+}
+
+#inputContainer label {
+    color:#8f939a;
+    font-size:15px;
+    margin-top:15px;
+}
+
+#inputContainer button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    margin: 20px auto;
+    height: 41px;
+    width: 100%;
+}
+
+#inputContainer button:hover {
+    cursor: pointer;
+    color: #37f77d;
+    background-color: #080808;
+    border:none;
+}
+
+.hasAccount span {
+    font-weight: bold;
+    font-size:12px;
+}
+
+.hasAccount{
+    text-align: center; 
+    cursor: pointer;
+    
+}
+#registerForm ,
+#loginForm {
+    display: none;
+}
+
+#loginText {
+    padding: 45px;
+    display: table-cell;
+}
+
+#loginText h1 {
+    color: #07d159;
+    font-size:60px;
+}
+
+#loginText h2 {
+    margin: 35px 0px;
+}
+
+
+
+.bi-check2 {
+    font-size: 35px;
+}
+
+.bi-check2::before {
+    color:limegreen;
+}
